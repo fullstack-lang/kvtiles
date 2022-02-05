@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch mbtilestokv",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/mbtilestokv",
+            "args": [
+                "-tilesPath=./testdata/hawaii.mbtiles",
+                "-dbPath=./cmd/kvtilesd/map.db",
+                "-centerLat=19.741755",
+                "-centerLng=-155.844437",
+                "-maxZoom=11"
+            ]
+        }
+    ]
+}
