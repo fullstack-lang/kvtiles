@@ -22,3 +22,4 @@
 /map.db
 /cmd/kvtilesd/map.db
 build/
+cmd/kvtilesd/__debug_bin
